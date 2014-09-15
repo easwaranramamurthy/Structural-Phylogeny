@@ -30,6 +30,6 @@ def writeOutput(in_file, out_file):
 			outf.write(" "*2+str(mapping[(id1, id2)]))
 		outf.write("\n")
 	
-in_file="C:\Users\easwa_000\Desktop\Struct_Bio_Project\B_Files\B_align_with_ancestor_output.txt"
-out_file="C:\Users\easwa_000\Desktop\Struct_Bio_Project\B_Files\B_with_ancestor_distance_matrix.txt"
+in_file="B_align_with_ancestor_output.txt"
+out_file="B_with_ancestor_distance_matrix.txt"
 writeOutput(in_file, out_file)
